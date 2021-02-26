@@ -1,11 +1,12 @@
 .hlavicka {
     background-color: rgba(195,219,197,0.6);
+    padding-bottom: 20px;
 }
 
 .mojefoto {
     width: 175px;
     border-radius: 50px;
-    margin: 15px 90px;
+    margin-top: 30px;
     border-color: #A0AAB2;
     border-style: solid;
     border-width: 1.5px;
@@ -19,7 +20,7 @@ h1{
     font-style: italic;
 }
 
-a{
+a {
     font-family: 'Montserrat', sans-serif;
     color: #000009;
     text-decoration: none;
@@ -34,4 +35,31 @@ a{
 a:hover{
     color: #D55672;
 }
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(0,99,93,0.5);
+  }
+  
+  .menu li {
+    display: inline-block;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 80px;
+    display: inline-block;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .menu a:hover,
+  .menu a:focus,
+  .menu a:active {
+    background-color: rgba(213,86,114, 0.7);
+  }
 
