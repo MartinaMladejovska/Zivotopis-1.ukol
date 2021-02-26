@@ -1,13 +1,37 @@
 .hlavicka {
-    background-color: rgba(195,219,197,0.8);
+    background-color: rgba(195,219,197,0.6);
 }
 
 .mojefoto {
-    width: 350px;
+    width: 175px;
     border-radius: 50px;
-    margin: 20px 30px;
+    margin: 15px 90px;
     border-color: #A0AAB2;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1.5px;
+}
+
+h1{
+    margin: 10px 10px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: #000009;
+    text-decoration: none;
+}
+
+.linkedin img,
+.email img {
+    width: 50px;
+    margin: 15px;
+}
+
+a:hover{
+    color: #D55672;
 }
 
