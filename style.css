@@ -18,12 +18,14 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-style: italic;
+    color: #00635D;
 }
 
 a {
     font-family: 'Montserrat', sans-serif;
     color: #000009;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .linkedin img,
@@ -63,3 +65,51 @@ a:hover{
     background-color: rgba(213,86,114, 0.7);
   }
 
+  .paticka {
+background-color:  rgba(0,99,93,0.5);
+  }
+
+  .paticka p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  h2 {
+      color: #00635D;
+      text-align: center;
+      font-family: 'Alegreya Sans', sans-serif;
+      font-style: italic;
+  }
+
+  body {
+    color: #000009;
+    background-color: rgba(195,219,197,0.6);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .omne {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .prace {
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    border-top: 1px dotted #A0AAB2;
+    border-bottom: 1px dotted #A0AAB2;
+  }
+
+  li{
+      font-weight: bold;
+  }
