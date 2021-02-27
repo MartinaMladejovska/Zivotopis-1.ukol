@@ -110,6 +110,14 @@ background-color:  rgba(0,99,93,0.5);
     border-bottom: 1px dotted #A0AAB2;
   }
 
-  li{
+  .seniortrainer,
+  .orderprocessingagent,
+  .officemanager {
       font-weight: bold;
+  }
+
+  .volnycas {
+    padding: 10px;
+    margin: 10px; 
+    font-style: italic; 
   }
